@@ -25,7 +25,7 @@ jobs:
           architecture: x64
 
       - run: flutter build apk --release --split-per-abi
-      - run: flutter build appbundle --release --split-per-abi
+      - run: flutter build appbundle --release
       # - run: |
       #     flutter build ios --no-codesign
       #     cd build/ios/iphoneos
